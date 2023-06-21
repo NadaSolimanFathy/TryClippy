@@ -264,7 +264,6 @@ body {
                 margin: 0.2rem; } }
       @media only screen and (max-width: 600px) {
         body .body-element__separator1 {
-          background-color: #39332c;
           height: 38vw;
           width: 100%; } }
     body .body-element__2ndPart {

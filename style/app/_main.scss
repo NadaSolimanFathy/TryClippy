@@ -268,7 +268,6 @@ body {
       }
 
       @media only screen and(max-width:600px) {
-        background-color: rgb(57, 51, 44);
         @include height-width(38vw, 100%);
       }
     }
