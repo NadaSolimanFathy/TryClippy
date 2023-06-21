@@ -1,32 +1,35 @@
 footer {
-    width: 80%;
-    height: 15vw;
-    margin: auto;
-    background-color: $circl-color;
+  width: 80%;
+  height: 15vw;
+  margin: auto;
+  background-color: $circl-color;
 
-    .footer-container {
-        padding-top: 2.5vw;
-        text-align: center;
+  .footer-container {
+    padding-top: 2.5vw;
+    text-align: center;
 
-        &__element {
-            font-size: 2vw;
-            color: white;
+    &__element {
+      font-size: 2vw;
+      color: white;
 
-            &--1,
-            &--2,
-            &--3 {
-                height: 2.5vw;
-                width: 10.5vw;
-                padding-left: 2vw;
-            }
-
-            &--4 {
-                padding: .7vw;
-                font-size: 1vw;
-                color: black;
-                display: inline;
-                background-color: $main-color;
-            }
+      &--1,
+      &--2,
+      &--3 {
+        height: 2.5vw;
+        width: 10.5vw;
+        padding-left: 2vw;
+        @media only screen and(max-width:800px) {
+          font-size: 6px;
         }
+      }
+
+      &--4 {
+        padding: 0.7vw;
+        font-size: 1vw;
+        color: black;
+        display: inline;
+        background-color: $main-color;
+      }
     }
+  }
 }

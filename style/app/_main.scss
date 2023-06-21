@@ -80,6 +80,11 @@ body {
           width: 20em;
           top: 1.2rem;
         }
+        @media only screen and (max-width: 380px) {
+          left: 5rem;
+          width: 16em;
+          top: 0.5rem;
+        }
 
         .nav__container {
           //ul
@@ -103,6 +108,9 @@ body {
               //like button
               padding: 1rem 1.5rem;
               background-color: $body-color;
+              @media only screen and (max-width: 385px) {
+                padding: 0.7rem 1rem;
+              }
             }
             a {
               text-decoration: none;
@@ -180,6 +188,14 @@ body {
         @media only screen and (max-width: 480px) {
           font-size: 1.2rem;
           left: 18rem;
+        }
+        @media only screen and (max-width: 385px) {
+          font-size: 1rem;
+          left: 14rem;
+        }
+        @media only screen and (max-width: 300px) {
+          font-size: 0.6rem;
+          left: 12rem;
         }
       }
 
