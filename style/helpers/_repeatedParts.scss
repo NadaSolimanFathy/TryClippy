@@ -1,0 +1,31 @@
+@mixin colored-circle($top, $left, $height-width, $background-color, $clip-path-range) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    height: $height-width;
+    width: $height-width;
+    background-color: $background-color;
+    clip-path: $clip-path-range;
+}
+@mixin imgContainer($top, $left, $height, $width) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    height: $height;
+    width: $width;
+}
+@mixin height-width($height, $width) {
+    height: $height;
+    width: $width;
+}
+
+%shape { //place-holder
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+%flexParts {
+    display: flex;
+    justify-content: space-between;
+}

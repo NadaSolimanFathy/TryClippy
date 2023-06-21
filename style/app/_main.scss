@@ -1,0 +1,583 @@
+@import "../helpers/repeatedParts";
+@import "../helpers/variables";
+
+body {
+  background-color: $body-color;
+
+  .body-element {
+    //main
+    position: relative;
+    margin: auto;
+    width: 80%;
+    background-color: $main-color;
+
+    &__1stPart {
+      @include height-width(50vw, 100%);
+
+      h6 {
+        padding-left: 1.5vw;
+        color: black;
+
+        font-family: $main-font;
+        font-size: 3.5vw;
+        font-weight: 100;
+      }
+
+      .nav {
+        width: 32vw;
+        position: absolute;
+        top: 1.6rem;
+        left: 40vw;
+
+        @media only screen and (max-width: 1200px) {
+          left: 44rem;
+          width: 44.8em;
+        }
+
+        @media only screen and (max-width: 1150px) {
+          left: 40rem;
+          width: 41.6em;
+        }
+
+        @media only screen and (max-width: 1050px) {
+          left: 35rem;
+          width: 41.6em;
+        }
+
+        @media only screen and (max-width: 1005px) {
+          left: 30rem;
+          width: 41.6em;
+        }
+
+        @media only screen and (max-width: 925px) {
+          left: 27rem;
+          width: 40em;
+        }
+
+        @media only screen and (max-width: 888px) {
+          left: 25rem;
+          width: 39em;
+        }
+        @media only screen and (max-width: 830px) {
+          left: 25rem;
+          width: 33em;
+        }
+        @media only screen and (max-width: 750px) {
+          left: 17rem;
+          width: 33em;
+        }
+        @media only screen and (max-width: 650px) {
+          left: 15rem;
+          width: 30em;
+        }
+        @media only screen and (max-width: 590px) {
+          left: 12rem;
+          width: 25em;
+          top: 1.2rem;
+        }
+        @media only screen and (max-width: 480px) {
+          left: 10rem;
+          width: 20em;
+          top: 1.2rem;
+        }
+
+        .nav__container {
+          //ul
+          @extend %flexParts;
+
+          .nav__elment {
+            //li
+            list-style-type: none;
+            font-size: 1.2vw;
+            padding-top: 1rem;
+
+            @media only screen and (max-width: 1200px) {
+              font-size: 1.5vw;
+            }
+
+            @media only screen and (max-width: 1050) {
+              font-size: 1.6vw;
+            }
+
+            &--6 {
+              //like button
+              padding: 1rem 1.5rem;
+              background-color: $body-color;
+            }
+            a {
+              text-decoration: none;
+              color: black;
+              &.contact {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+
+      .text-beside-image {
+        position: absolute;
+        top: 15vw;
+        left: 38vw;
+
+        font-family: "Courier New", Courier, monospace;
+        font-size: 2.7vw;
+        font-weight: 200;
+        color: black;
+
+        @media only screen and (max-width: 1200px) {
+          font-size: 3.5rem;
+        }
+
+        @media only screen and (max-width: 1180px) {
+          font-size: 3.4rem;
+          left: 50rem;
+        }
+
+        @media only screen and (max-width: 1150px) {
+          font-size: 3.2rem;
+          left: 50rem;
+        }
+
+        @media only screen and (max-width: 1050px) {
+          font-size: 3rem;
+          left: 45rem;
+        }
+
+        @media only screen and (max-width: 1000px) {
+          font-size: 2.8rem;
+          left: 40rem;
+        }
+
+        @media only screen and (max-width: 900px) {
+          font-size: 2.5rem;
+          left: 35rem;
+          font-weight: bold;
+        }
+
+        @media only screen and (max-width: 800px) {
+          font-size: 2rem;
+          left: 30rem;
+          font-weight: bold;
+        }
+
+        @media only screen and (max-width: 650px) {
+          font-size: 2rem;
+          left: 25rem;
+          font-weight: bold;
+        }
+
+        @media only screen and (max-width: 575px) {
+          font-size: 2rem;
+          left: 22rem;
+          font-weight: bold;
+        }
+        @media only screen and (max-width: 530px) {
+          font-size: 1.6rem;
+          left: 18rem;
+          font-weight: bold;
+        }
+        @media only screen and (max-width: 480px) {
+          font-size: 1.2rem;
+          left: 18rem;
+        }
+      }
+
+      .circleAndImgContainer {
+        @include height-width(100%, 50%);
+
+        .circle {
+          @include colored-circle(
+            18vw,
+            0,
+            28vw,
+            $circl-color,
+            circle(50% at 36% 50%)
+          );
+        }
+
+        .girlPic-container {
+          @include imgContainer(7vw, 12vw, 32vw, 22.5vw);
+
+          .girlPic {
+            @extend %shape;
+            filter: contrast(120%);
+          }
+        }
+      }
+    }
+
+    &__separator1 {
+      @include height-width(15vw, 100%);
+      background-color: $separator-color;
+
+      @media only screen and(max-width:1000px) {
+        @include height-width(22vw, 100%);
+      }
+
+      @media only screen and(max-width:850px) {
+        @include height-width(25vw, 100%);
+      }
+
+      @media only screen and(max-width:700px) {
+        @include height-width(28vw, 100%);
+      }
+
+      &--content {
+        width: 35%;
+        margin: auto;
+        padding-top: 4em;
+        // margin-top: 8em; ???????????
+        @media only screen and(max-width:600px) {
+          padding-top: 2em;
+        }
+        @media only screen and(max-width:500px) {
+          padding-top: 1em;
+        }
+
+        .ExploreOptions {
+          text-align: center;
+          font-size: 2.5vw;
+          color: $dark-orange;
+          margin-bottom: 1vw;
+        }
+
+        .optionsContainer {
+          margin: auto;
+          @extend %flexParts;
+          width: 100%;
+
+          @media only screen and(max-width:1000px) {
+            flex-direction: column;
+            width: 60%;
+          }
+
+          a {
+            text-decoration: none;
+            font-size: 1.4vw;
+            color: white;
+            padding: 1rem 1.5rem;
+            text-align: center;
+            background-color: $body-color;
+
+            @media only screen and(max-width:1000px) {
+              margin: 0.2rem;
+            }
+          }
+        }
+      }
+
+      @media only screen and(max-width:600px) {
+        background-color: rgb(57, 51, 44);
+        @include height-width(38vw, 100%);
+      }
+    }
+
+    &__2ndPart {
+      @include height-width(36vw, 100%);
+      background-color: #f7e6dc;
+      position: relative;
+
+      &--part1 {
+        position: absolute;
+        @include height-width(100%, 50%);
+
+        p {
+          padding: 2.5vw 4.2vw 0 4vw;
+          font-size: 1.2vw;
+
+          span {
+            font-size: 2.5vw;
+          }
+        }
+
+        .more {
+          height: 4.5vw;
+          padding-left: 26vw;
+
+          a {
+            color: black;
+          }
+        }
+      }
+
+      &--part2 {
+        position: absolute;
+        left: 50%;
+        @include height-width(100%, 50%);
+        background-color: $orange-frame;
+
+        .flip_card {
+          position: relative;
+          @include height-width(80%, 70%);
+          margin-top: 3.7vw;
+          margin-left: 6vw;
+          transition: transform 1.3s;
+          transform-style: preserve-3d;
+
+          /* make the 2 divs rotate around their self */
+          .front-card,
+          .back-card {
+            position: absolute;
+            @include height-width(100%, 100%);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+
+            img {
+              @include height-width(100%, 100%);
+            }
+          }
+
+          .front-card {
+            transform: rotateY(180deg);
+          }
+        }
+
+        .flip_card:hover {
+          transform: rotateY(180deg);
+        }
+      }
+    }
+
+    &__3rdPart {
+      position: relative;
+      @include height-width(56vw, 100%);
+
+      &--button {
+        @include height-width(3.5vw, 9vw);
+        color: white;
+        background-color: $body-color;
+
+        position: absolute;
+        top: 45vw;
+        left: 28vw;
+
+        font-size: 2vw;
+        text-align: center;
+        padding-top: 0.3vw;
+        border-radius: 0.48em;
+      }
+
+      h4 {
+        position: absolute;
+        top: 15vw;
+        left: 38vw;
+        color: $dark-orange;
+        font-family: $second-font;
+        font-size: 3vw;
+        font-weight: normal;
+      }
+
+      &--rectangle {
+        position: absolute;
+        top: 13vw;
+        left: 5vw;
+        @include height-width(28vw, 31.5vw);
+
+        img {
+          border-radius: 0.8em;
+          @include height-width(100%, 100%);
+        }
+      }
+
+      &--circle {
+        clip-path: circle(50%);
+        @include height-width(15vw, 15vw);
+        position: absolute;
+        top: 36vw;
+        left: 40vw;
+
+        img {
+          @include height-width(100%, 100%);
+        }
+      }
+
+      &--shape {
+        @include imgContainer(5vw, 52vw, 27vw, 22vw);
+
+        img {
+          @extend %shape;
+          filter: contrast(120%);
+        }
+      }
+    }
+
+    &__separator2 {
+      @include height-width(22vw, 100%);
+      background-color: $orange-frame;
+      color: white;
+      font-family: $second-font;
+      text-align: center;
+
+      &--apostrophe {
+        display: inline-block;
+        font-size: 5vw;
+        margin: 0;
+        padding-top: 3vw;
+      }
+
+      &--article {
+        margin-top: -1.92em;
+        margin-bottom: 1.6em;
+        font-size: 1.5vw;
+      }
+
+      &--text {
+        font-size: 0.5vw;
+      }
+    }
+
+    &__4thPart {
+      position: relative;
+      @include height-width(42vw, 100%);
+
+      &--shape {
+        @include imgContainer(-8vw, 45vw, 36vw, 25vw);
+
+        img {
+          @extend %shape;
+          filter: contrast(130%);
+        }
+      }
+
+      &--circle {
+        @include colored-circle(
+          10vw,
+          52.25vw,
+          26.1vw,
+          $dark-orange,
+          circle(50% at 59% 50%)
+        );
+      }
+
+      &--article {
+        font-size: 2.2vw;
+        font-family: $main-font;
+        margin-top: 15vw;
+        padding-left: 10vw;
+      }
+
+      &--button {
+        font-size: 2vw;
+        @include height-width(4vw, 10.5vw);
+        color: white;
+        background-color: $body-color;
+        text-align: center;
+        padding-top: 0.4vw;
+        margin-left: 10vw;
+        margin-top: 1vw;
+        border-radius: 0.48em;
+      }
+    }
+
+    &__5thPart {
+      @include height-width(48vw, 100%);
+      background-color: #ebd1d6;
+
+      h4 {
+        position: relative;
+        left: 54.5vw;
+        top: 5vw;
+        display: inline;
+        color: $dark-orange;
+        font-family: $second-font;
+        font-size: 2.5vw;
+      }
+
+      &--container {
+        @include height-width(65%, 85%);
+        margin-top: 8vw;
+        margin-left: 6vw;
+        @extend %flexParts;
+
+        div {
+          @include height-width(26vw, 20.5vw);
+
+          img {
+            border-radius: 0.5em;
+            @include height-width(100%, 100%);
+          }
+        }
+      }
+    }
+
+    &__6thPart {
+      position: relative;
+      height: 40vw;
+      background-color: $main-color;
+
+      &--world {
+        // display: inline;
+        position: absolute;
+        left: 33.5vw;
+        top: -4.5vw;
+        font-family: $special-font;
+        font-size: 5.3vw;
+        font-weight: 100;
+        color: white;
+        z-index: 2;
+      }
+
+      &--circle {
+        @include height-width(10vw, 10vw);
+        clip-path: circle(50%);
+        background-color: $body-color;
+        position: absolute;
+        left: 45vw;
+        top: -6vw;
+        @include colored-circle(-6vw, 34vw, 10vw, $body-color, circle(50%));
+      }
+
+      &--paragraph {
+        font-size: 2.1vw;
+        font-family: $main-font;
+        position: absolute;
+        left: 8vw;
+        top: 6.5vw;
+      }
+
+      &--nav1,
+      &--nav2 {
+        li {
+          list-style: none;
+          text-align: right;
+
+          a {
+            color: black;
+            font-style: italic;
+            font-size: 1.1vw;
+          }
+        }
+      }
+
+      &--nav1 {
+        position: absolute;
+        left: 62vw;
+        top: 8.2vw;
+      }
+
+      &--nav2 {
+        position: absolute;
+        left: 47.5vw;
+        top: 8.2vw;
+      }
+
+      &--imgContainer {
+        @extend %flexParts;
+        position: absolute;
+        left: 10vw;
+        top: 16vw;
+        @include height-width(50%, 75%);
+
+        .flexItem {
+          @include height-width(18vw, 13vw);
+
+          img {
+            border-radius: 0.5rem;
+            @include height-width(100%, 100%);
+          }
+        }
+      }
+    }
+  }
+}

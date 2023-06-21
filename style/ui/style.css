@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dosis:wght@200;700&family=Nanum+Myeongjo&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dosis:wght@200;700&family=Nanum+Myeongjo&family=Nothing+You+Could+Do&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dosis:wght@200;700&family=Nanum+Myeongjo&family=Nothing+You+Could+Do&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dosis:wght@200;700&family=Nanum+Myeongjo&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dosis:wght@200;700&family=Nanum+Myeongjo&family=Nothing+You+Could+Do&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dosis:wght@200;700&family=Nanum+Myeongjo&family=Nothing+You+Could+Do&family=Raleway&display=swap");
+body .body-element__1stPart .circleAndImgContainer .girlPic-container .girlPic, body .body-element__3rdPart--shape img, body .body-element__4thPart--shape img {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 100%;
+  width: 100%; }
+
+body .body-element__1stPart .nav .nav__container, body .body-element__separator1--content .optionsContainer, body .body-element__5thPart--container, body .body-element__6thPart--imgContainer {
+  display: flex;
+  justify-content: space-between; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+header {
+  height: 18vw; }
+  header div {
+    height: 20rem; }
+  header .header-element {
+    text-align: center; }
+    header .header-element__one {
+      height: 12vw;
+      font-family: "Caveat", cursive;
+      font-size: 13vw;
+      font-weight: 100;
+      color: white; }
+    header .header-element__two {
+      font-size: 1vw;
+      text-transform: uppercase;
+      word-spacing: .3rem;
+      letter-spacing: .7rem; }
+  header .header-element::selection {
+    color: #471709; }
+
+body .body-element__1stPart .circleAndImgContainer .girlPic-container .girlPic, body .body-element__3rdPart--shape img, body .body-element__4thPart--shape img {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 100%;
+  width: 100%; }
+
+body .body-element__1stPart .nav .nav__container, body .body-element__separator1--content .optionsContainer, body .body-element__5thPart--container, body .body-element__6thPart--imgContainer {
+  display: flex;
+  justify-content: space-between; }
+
+body {
+  background-color: #d1b0b7; }
+  body .body-element {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    background-color: #fcf1ed; }
+    body .body-element__1stPart {
+      height: 50vw;
+      width: 100%; }
+      body .body-element__1stPart h6 {
+        padding-left: 1.5vw;
+        color: black;
+        font-family: "Caveat", cursive;
+        font-size: 3.5vw;
+        font-weight: 100; }
+      body .body-element__1stPart .nav {
+        width: 32vw;
+        position: absolute;
+        top: 1.6rem;
+        left: 40vw; }
+        @media only screen and (max-width: 1200px) {
+          body .body-element__1stPart .nav {
+            left: 44rem;
+            width: 44.8em; } }
+        @media only screen and (max-width: 1150px) {
+          body .body-element__1stPart .nav {
+            left: 40rem;
+            width: 41.6em; } }
+        @media only screen and (max-width: 1050px) {
+          body .body-element__1stPart .nav {
+            left: 35rem;
+            width: 41.6em; } }
+        @media only screen and (max-width: 1005px) {
+          body .body-element__1stPart .nav {
+            left: 30rem;
+            width: 41.6em; } }
+        @media only screen and (max-width: 925px) {
+          body .body-element__1stPart .nav {
+            left: 27rem;
+            width: 40em; } }
+        @media only screen and (max-width: 888px) {
+          body .body-element__1stPart .nav {
+            left: 25rem;
+            width: 39em; } }
+        @media only screen and (max-width: 830px) {
+          body .body-element__1stPart .nav {
+            left: 25rem;
+            width: 33em; } }
+        @media only screen and (max-width: 750px) {
+          body .body-element__1stPart .nav {
+            left: 17rem;
+            width: 33em; } }
+        @media only screen and (max-width: 650px) {
+          body .body-element__1stPart .nav {
+            left: 15rem;
+            width: 30em; } }
+        @media only screen and (max-width: 590px) {
+          body .body-element__1stPart .nav {
+            left: 12rem;
+            width: 25em;
+            top: 1.2rem; } }
+        @media only screen and (max-width: 480px) {
+          body .body-element__1stPart .nav {
+            left: 10rem;
+            width: 20em;
+            top: 1.2rem; } }
+        body .body-element__1stPart .nav .nav__container .nav__elment {
+          list-style-type: none;
+          font-size: 1.2vw;
+          padding-top: 1rem; }
+          @media only screen and (max-width: 1200px) {
+            body .body-element__1stPart .nav .nav__container .nav__elment {
+              font-size: 1.5vw; } }
+          @media only screen and (max-width: 1050) {
+            body .body-element__1stPart .nav .nav__container .nav__elment {
+              font-size: 1.6vw; } }
+          body .body-element__1stPart .nav .nav__container .nav__elment--6 {
+            padding: 1rem 1.5rem;
+            background-color: #d1b0b7; }
+          body .body-element__1stPart .nav .nav__container .nav__elment a {
+            text-decoration: none;
+            color: black; }
+            body .body-element__1stPart .nav .nav__container .nav__elment a.contact {
+              color: white; }
+      body .body-element__1stPart .text-beside-image {
+        position: absolute;
+        top: 15vw;
+        left: 38vw;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 2.7vw;
+        font-weight: 200;
+        color: black; }
+        @media only screen and (max-width: 1200px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 3.5rem; } }
+        @media only screen and (max-width: 1180px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 3.4rem;
+            left: 50rem; } }
+        @media only screen and (max-width: 1150px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 3.2rem;
+            left: 50rem; } }
+        @media only screen and (max-width: 1050px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 3rem;
+            left: 45rem; } }
+        @media only screen and (max-width: 1000px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 2.8rem;
+            left: 40rem; } }
+        @media only screen and (max-width: 900px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 2.5rem;
+            left: 35rem;
+            font-weight: bold; } }
+        @media only screen and (max-width: 800px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 2rem;
+            left: 30rem;
+            font-weight: bold; } }
+        @media only screen and (max-width: 650px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 2rem;
+            left: 25rem;
+            font-weight: bold; } }
+        @media only screen and (max-width: 575px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 2rem;
+            left: 22rem;
+            font-weight: bold; } }
+        @media only screen and (max-width: 530px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 1.6rem;
+            left: 18rem;
+            font-weight: bold; } }
+        @media only screen and (max-width: 480px) {
+          body .body-element__1stPart .text-beside-image {
+            font-size: 1.2rem;
+            left: 18rem; } }
+      body .body-element__1stPart .circleAndImgContainer {
+        height: 100%;
+        width: 50%; }
+        body .body-element__1stPart .circleAndImgContainer .circle {
+          position: absolute;
+          top: 18vw;
+          left: 0;
+          height: 28vw;
+          width: 28vw;
+          background-color: #e09d89;
+          clip-path: circle(50% at 36% 50%); }
+        body .body-element__1stPart .circleAndImgContainer .girlPic-container {
+          position: absolute;
+          top: 7vw;
+          left: 12vw;
+          height: 32vw;
+          width: 22.5vw; }
+          body .body-element__1stPart .circleAndImgContainer .girlPic-container .girlPic {
+            filter: contrast(120%); }
+    body .body-element__separator1 {
+      height: 15vw;
+      width: 100%;
+      background-color: #fce5d7; }
+      @media only screen and (max-width: 1000px) {
+        body .body-element__separator1 {
+          height: 22vw;
+          width: 100%; } }
+      @media only screen and (max-width: 850px) {
+        body .body-element__separator1 {
+          height: 25vw;
+          width: 100%; } }
+      @media only screen and (max-width: 700px) {
+        body .body-element__separator1 {
+          height: 28vw;
+          width: 100%; } }
+      body .body-element__separator1--content {
+        width: 35%;
+        margin: auto;
+        padding-top: 4em; }
+        @media only screen and (max-width: 600px) {
+          body .body-element__separator1--content {
+            padding-top: 2em; } }
+        @media only screen and (max-width: 500px) {
+          body .body-element__separator1--content {
+            padding-top: 1em; } }
+        body .body-element__separator1--content .ExploreOptions {
+          text-align: center;
+          font-size: 2.5vw;
+          color: #a75b24;
+          margin-bottom: 1vw; }
+        body .body-element__separator1--content .optionsContainer {
+          margin: auto;
+          width: 100%; }
+          @media only screen and (max-width: 1000px) {
+            body .body-element__separator1--content .optionsContainer {
+              flex-direction: column;
+              width: 60%; } }
+          body .body-element__separator1--content .optionsContainer a {
+            text-decoration: none;
+            font-size: 1.4vw;
+            color: white;
+            padding: 1rem 1.5rem;
+            text-align: center;
+            background-color: #d1b0b7; }
+            @media only screen and (max-width: 1000px) {
+              body .body-element__separator1--content .optionsContainer a {
+                margin: 0.2rem; } }
+      @media only screen and (max-width: 600px) {
+        body .body-element__separator1 {
+          background-color: #39332c;
+          height: 38vw;
+          width: 100%; } }
+    body .body-element__2ndPart {
+      height: 36vw;
+      width: 100%;
+      background-color: #f7e6dc;
+      position: relative; }
+      body .body-element__2ndPart--part1 {
+        position: absolute;
+        height: 100%;
+        width: 50%; }
+        body .body-element__2ndPart--part1 p {
+          padding: 2.5vw 4.2vw 0 4vw;
+          font-size: 1.2vw; }
+          body .body-element__2ndPart--part1 p span {
+            font-size: 2.5vw; }
+        body .body-element__2ndPart--part1 .more {
+          height: 4.5vw;
+          padding-left: 26vw; }
+          body .body-element__2ndPart--part1 .more a {
+            color: black; }
+      body .body-element__2ndPart--part2 {
+        position: absolute;
+        left: 50%;
+        height: 100%;
+        width: 50%;
+        background-color: #d9a47e; }
+        body .body-element__2ndPart--part2 .flip_card {
+          position: relative;
+          height: 80%;
+          width: 70%;
+          margin-top: 3.7vw;
+          margin-left: 6vw;
+          transition: transform 1.3s;
+          transform-style: preserve-3d;
+          /* make the 2 divs rotate around their self */ }
+          body .body-element__2ndPart--part2 .flip_card .front-card,
+          body .body-element__2ndPart--part2 .flip_card .back-card {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden; }
+            body .body-element__2ndPart--part2 .flip_card .front-card img,
+            body .body-element__2ndPart--part2 .flip_card .back-card img {
+              height: 100%;
+              width: 100%; }
+          body .body-element__2ndPart--part2 .flip_card .front-card {
+            transform: rotateY(180deg); }
+        body .body-element__2ndPart--part2 .flip_card:hover {
+          transform: rotateY(180deg); }
+    body .body-element__3rdPart {
+      position: relative;
+      height: 56vw;
+      width: 100%; }
+      body .body-element__3rdPart--button {
+        height: 3.5vw;
+        width: 9vw;
+        color: white;
+        background-color: #d1b0b7;
+        position: absolute;
+        top: 45vw;
+        left: 28vw;
+        font-size: 2vw;
+        text-align: center;
+        padding-top: 0.3vw;
+        border-radius: 0.48em; }
+      body .body-element__3rdPart h4 {
+        position: absolute;
+        top: 15vw;
+        left: 38vw;
+        color: #a75b24;
+        font-family: "Nanum Myeongjo", serif;
+        font-size: 3vw;
+        font-weight: normal; }
+      body .body-element__3rdPart--rectangle {
+        position: absolute;
+        top: 13vw;
+        left: 5vw;
+        height: 28vw;
+        width: 31.5vw; }
+        body .body-element__3rdPart--rectangle img {
+          border-radius: 0.8em;
+          height: 100%;
+          width: 100%; }
+      body .body-element__3rdPart--circle {
+        clip-path: circle(50%);
+        height: 15vw;
+        width: 15vw;
+        position: absolute;
+        top: 36vw;
+        left: 40vw; }
+        body .body-element__3rdPart--circle img {
+          height: 100%;
+          width: 100%; }
+      body .body-element__3rdPart--shape {
+        position: absolute;
+        top: 5vw;
+        left: 52vw;
+        height: 27vw;
+        width: 22vw; }
+        body .body-element__3rdPart--shape img {
+          filter: contrast(120%); }
+    body .body-element__separator2 {
+      height: 22vw;
+      width: 100%;
+      background-color: #d9a47e;
+      color: white;
+      font-family: "Nanum Myeongjo", serif;
+      text-align: center; }
+      body .body-element__separator2--apostrophe {
+        display: inline-block;
+        font-size: 5vw;
+        margin: 0;
+        padding-top: 3vw; }
+      body .body-element__separator2--article {
+        margin-top: -1.92em;
+        margin-bottom: 1.6em;
+        font-size: 1.5vw; }
+      body .body-element__separator2--text {
+        font-size: 0.5vw; }
+    body .body-element__4thPart {
+      position: relative;
+      height: 42vw;
+      width: 100%; }
+      body .body-element__4thPart--shape {
+        position: absolute;
+        top: -8vw;
+        left: 45vw;
+        height: 36vw;
+        width: 25vw; }
+        body .body-element__4thPart--shape img {
+          filter: contrast(130%); }
+      body .body-element__4thPart--circle {
+        position: absolute;
+        top: 10vw;
+        left: 52.25vw;
+        height: 26.1vw;
+        width: 26.1vw;
+        background-color: #a75b24;
+        clip-path: circle(50% at 59% 50%); }
+      body .body-element__4thPart--article {
+        font-size: 2.2vw;
+        font-family: "Caveat", cursive;
+        margin-top: 15vw;
+        padding-left: 10vw; }
+      body .body-element__4thPart--button {
+        font-size: 2vw;
+        height: 4vw;
+        width: 10.5vw;
+        color: white;
+        background-color: #d1b0b7;
+        text-align: center;
+        padding-top: 0.4vw;
+        margin-left: 10vw;
+        margin-top: 1vw;
+        border-radius: 0.48em; }
+    body .body-element__5thPart {
+      height: 48vw;
+      width: 100%;
+      background-color: #ebd1d6; }
+      body .body-element__5thPart h4 {
+        position: relative;
+        left: 54.5vw;
+        top: 5vw;
+        display: inline;
+        color: #a75b24;
+        font-family: "Nanum Myeongjo", serif;
+        font-size: 2.5vw; }
+      body .body-element__5thPart--container {
+        height: 65%;
+        width: 85%;
+        margin-top: 8vw;
+        margin-left: 6vw; }
+        body .body-element__5thPart--container div {
+          height: 26vw;
+          width: 20.5vw; }
+          body .body-element__5thPart--container div img {
+            border-radius: 0.5em;
+            height: 100%;
+            width: 100%; }
+    body .body-element__6thPart {
+      position: relative;
+      height: 40vw;
+      background-color: #fcf1ed; }
+      body .body-element__6thPart--world {
+        position: absolute;
+        left: 33.5vw;
+        top: -4.5vw;
+        font-family: "Nothing You Could Do", cursive;
+        font-size: 5.3vw;
+        font-weight: 100;
+        color: white;
+        z-index: 2; }
+      body .body-element__6thPart--circle {
+        height: 10vw;
+        width: 10vw;
+        clip-path: circle(50%);
+        background-color: #d1b0b7;
+        position: absolute;
+        left: 45vw;
+        top: -6vw;
+        position: absolute;
+        top: -6vw;
+        left: 34vw;
+        height: 10vw;
+        width: 10vw;
+        background-color: #d1b0b7;
+        clip-path: circle(50%); }
+      body .body-element__6thPart--paragraph {
+        font-size: 2.1vw;
+        font-family: "Caveat", cursive;
+        position: absolute;
+        left: 8vw;
+        top: 6.5vw; }
+      body .body-element__6thPart--nav1 li, body .body-element__6thPart--nav2 li {
+        list-style: none;
+        text-align: right; }
+        body .body-element__6thPart--nav1 li a, body .body-element__6thPart--nav2 li a {
+          color: black;
+          font-style: italic;
+          font-size: 1.1vw; }
+      body .body-element__6thPart--nav1 {
+        position: absolute;
+        left: 62vw;
+        top: 8.2vw; }
+      body .body-element__6thPart--nav2 {
+        position: absolute;
+        left: 47.5vw;
+        top: 8.2vw; }
+      body .body-element__6thPart--imgContainer {
+        position: absolute;
+        left: 10vw;
+        top: 16vw;
+        height: 50%;
+        width: 75%; }
+        body .body-element__6thPart--imgContainer .flexItem {
+          height: 18vw;
+          width: 13vw; }
+          body .body-element__6thPart--imgContainer .flexItem img {
+            border-radius: 0.5rem;
+            height: 100%;
+            width: 100%; }
+
+footer {
+  width: 80%;
+  height: 15vw;
+  margin: auto;
+  background-color: #e09d89; }
+  footer .footer-container {
+    padding-top: 2.5vw;
+    text-align: center; }
+    footer .footer-container__element {
+      font-size: 2vw;
+      color: white; }
+      footer .footer-container__element--1, footer .footer-container__element--2, footer .footer-container__element--3 {
+        height: 2.5vw;
+        width: 10.5vw;
+        padding-left: 2vw; }
+      footer .footer-container__element--4 {
+        padding: .7vw;
+        font-size: 1vw;
+        color: black;
+        display: inline;
+        background-color: #fcf1ed; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+*{   //reset 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px; // easy in calculations.
+}
+
+header {
+  height: 18vw;
+
+  div {
+    height: 20rem;
+  }
+
+  .header-element {
+    text-align: center;
+
+
+    &__one {      
+      height: 12vw;
+      //make h1's height shorter to decrease space between h1 ,h3
+      font-family: "Caveat", cursive;
+      font-size: 13vw;
+      font-weight: 100;
+      color: white;
+    }
+
+    &__two {
+      font-size: 1vw;
+      text-transform: uppercase;
+      word-spacing: .3rem;
+      letter-spacing: .7rem;
+    }
+
+  }
+  .header-element::selection {
+    color: #471709;
+  }
+}
